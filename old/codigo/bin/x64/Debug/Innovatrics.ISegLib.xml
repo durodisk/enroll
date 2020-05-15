@@ -1,0 +1,437 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Innovatrics.ISegLib</name>
+    </assembly>
+    <members>
+        <member name="T:Innovatrics.ISegLib.Enums.ISegLibHwidMethod">
+            <summary>
+            Defines licensing hardware identification methods
+            </summary>
+        </member>
+        <member name="F:Innovatrics.ISegLib.Enums.ISegLibHwidMethod.AUTO">
+            <summary>
+            Automatically select the hardware id based on platform defaults
+            </summary>
+        </member>
+        <member name="F:Innovatrics.ISegLib.Enums.ISegLibHwidMethod.DISKID">
+            <summary>
+            Use disk based hardware id
+            </summary>
+        </member>
+        <member name="F:Innovatrics.ISegLib.Enums.ISegLibHwidMethod.MAC">
+            <summary>
+            Use network mac address as hardware id
+            </summary>
+        </member>
+        <member name="F:Innovatrics.ISegLib.Enums.ISegLibHwidMethod.SERIALNO">
+            <summary>
+            Use serial number as hardware id
+            </summary>
+        </member>
+        <member name="F:Innovatrics.ISegLib.Enums.ISegLibHwidMethod.IMEI">
+            <summary>
+            Use IMEI on Android devices as hardware id
+            </summary>
+        </member>
+        <member name="F:Innovatrics.ISegLib.Enums.ISegLibHwidMethod.SMBIOS">
+            <summary>
+            Use smbios for hardware id
+            </summary>
+        </member>
+        <member name="F:Innovatrics.ISegLib.Enums.ISegLibHwidMethod.AMAZON">
+            <summary>
+            Use amazon http request as hardware id
+            </summary>
+        </member>
+        <member name="F:Innovatrics.ISegLib.Enums.ISegLibHwidMethod.APPID">
+            <summary>
+            Use application id based hardware id
+            </summary>
+        </member>
+        <member name="F:Innovatrics.ISegLib.Enums.ISegLibHwidMethod.PHY">
+            <summary>
+            Use other physical hardware identifier
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:Innovatrics.ISegLib.Enums.ISegLibHwidMethod.MAC_ADDR" -->
+        <member name="T:Innovatrics.ISegLib.Enums.ISegLibImageFormat">
+            <summary>
+            Defines supported image formats
+            </summary>
+        </member>
+        <member name="F:Innovatrics.ISegLib.Enums.ISegLibImageFormat.Bmp">
+            <summary>
+            BMP format
+            </summary>
+        </member>
+        <member name="F:Innovatrics.ISegLib.Enums.ISegLibImageFormat.Png">
+            <summary>
+            PNG image format
+            </summary>
+        </member>
+        <member name="F:Innovatrics.ISegLib.Enums.ISegLibImageFormat.Wsq">
+            <summary>
+            WSQ fingerprint image format
+            </summary>
+        </member>
+        <member name="F:Innovatrics.ISegLib.Enums.ISegLibImageFormat.Jpeg2K">
+            <summary>
+            JPEG 2000
+            </summary>
+        </member>
+        <member name="T:Innovatrics.ISegLib.Enums.SegmentationOptions">
+            <summary>
+            Segmentation options, these options control the behaviour of fingerprint segmentation function
+            </summary>
+        </member>
+        <member name="F:Innovatrics.ISegLib.Enums.SegmentationOptions.None">
+            <summary>
+            No special options
+            </summary>
+        </member>
+        <member name="F:Innovatrics.ISegLib.Enums.SegmentationOptions.NoisyBackground">
+            <summary>
+            Use this option if image background is not blank (background contains noise).
+            </summary>
+        </member>
+        <member name="T:Innovatrics.ISegLib.ISegLib">
+            <summary>
+            This class is a .NET wrapper to Innovatrics Segmentation Library.
+            The purpose of this library is to perform segmentation of slap fingerprint image into individual prints.
+            It works with 2,3 or 4 slap fingerprint images.
+            Features:
+            - Automatic segmentation of slap images (from 2 to 4 fingers)
+            - Automatic detection of missing digits (fingers) positions
+            - Manual segentation support
+            - Image conversion (WSQ, BMP, PNG, JPEG2K), possibility to set bit rate for WSQ and JPEG2K formats
+            - Fingerprint quality map retrieval (as color image)
+            - Innovatrics quality score of individual prints
+            - NFIQ score retrieval
+            - Image intensity retrieval, for detection of low pressure/dry fingers or high pressure/wet fingers
+            - Left/right hand detection for 4 finger images and for 3 finger images
+            (hand information can be detected properly even if one of the fingers is missing)
+            - Removal of noisy background, used mainly for fingerprint scanners generating
+            images with a lot of background noise
+            </summary>
+        </member>
+        <member name="F:Innovatrics.ISegLib.ISegLib.MIN_IMAGE_WIDTH">
+            <summary>
+            Minimum image width accepted by the library
+            </summary>
+        </member>
+        <member name="F:Innovatrics.ISegLib.ISegLib.MAX_IMAGE_WIDTH">
+            <summary>
+            Maximum image width accepted by the library
+            </summary>
+        </member>
+        <member name="F:Innovatrics.ISegLib.ISegLib.MIN_IMAGE_HEIGHT">
+            <summary>
+            Minimum image height accepted by the library
+            </summary>
+        </member>
+        <member name="F:Innovatrics.ISegLib.ISegLib.MAX_IMAGE_HEIGHT">
+            <summary>
+            Maximum image height accepted by the library
+            </summary>
+        </member>
+        <member name="F:Innovatrics.ISegLib.ISegLib.INTENSITY_THRESHOLD_TOO_DARK">
+            <summary>
+            Threshold defining when the image is considered to be too dark
+            </summary>
+        </member>
+        <member name="F:Innovatrics.ISegLib.ISegLib.INTENSITY_THRESHOLD_TOO_LIGHT">
+            <summary>
+            Threshold defining when the image is considered to be too light
+            </summary>
+        </member>
+        <member name="M:Innovatrics.ISegLib.ISegLib.Init">
+            <summary>
+            Initializes and checks the integrity of the library and verifies the validity
+            of the license.
+            </summary>
+        </member>
+        <member name="M:Innovatrics.ISegLib.ISegLib.Terminate">
+            <summary>
+            Terminates the use of the library
+            </summary>
+        </member>
+        <member name="M:Innovatrics.ISegLib.ISegLib.GetHwid(Innovatrics.ISegLib.Enums.ISegLibHwidMethod)">
+            <summary>
+            Returns hardware identification signature based on selected method for licensing purposes.
+            </summary>
+            <param name="method">Method of obtaining the hardware id (default is ISegLibHwidMethod.AUTO).</param>
+            <returns>the hardware signature string</returns>
+        </member>
+        <member name="M:Innovatrics.ISegLib.ISegLib.GetLicenseValue(System.String)">
+            <summary>
+            Returns value of given key form JSON license format.
+            </summary>
+            <param name="key">Required key from license. Use "/" for key levels, e.g. "/version", "/contract/customer". Arrays are indexed form 0, i.e.: use "/contract/hwids/0" for the first element of "hwids" array.</param>
+            <returns>
+            Returns value of given key form JSON license format.
+            </returns>
+        </member>
+        <member name="M:Innovatrics.ISegLib.ISegLib.GetVersion(System.Int32@,System.Int32@)">
+            <summary>
+            Returns the version number of the library
+            </summary>
+            <param name="major">Major library version</param>
+            <param name="minor">Minor library version</param>
+        </member>
+        <member name="M:Innovatrics.ISegLib.ISegLib.GetVersionString">
+            <summary>
+            Returns string with version information.
+            </summary>
+            <returns>Version string</returns>
+        </member>
+        <member name="M:Innovatrics.ISegLib.ISegLib.SetLicenseContent(System.Byte[])">
+            <summary>
+            Sets the license data for license check.
+            This function helps to avoid the usage of license files. It is meant to protect the license file content.
+            It has to be called before initialization of ISegLib class.
+            </summary>
+            <param name="licenseContent">License file content</param>
+        </member>
+        <member name="M:Innovatrics.ISegLib.ISegLib.SegmentFingerprints(Innovatrics.Sdk.Commons.RawImage,System.Int32,System.Int32,System.Int32,System.Int32,Innovatrics.ISegLib.Enums.SegmentationOptions,System.Int32,System.Int32,System.Byte)">
+            <summary>
+            Separates slap fingerprint image into individual prints, returns containing rectangles of detected fingers, returns
+            image with color boxes indicating positions of detected fingers, returns number of
+            prints detected in the input image, returns information on missing digits (fingers),
+            for 4 and 3 finger slap images, returns information about hand position (left/right hand).
+            </summary>
+            <param name="image">Input slap fingerprint image</param>
+            <param name="expectedFingersCount">Number if fingers expected to be found in the input slap image. Valid range: 0..4</param>
+            <param name="minFingersCount">Minimum number of fingers that has to be detected in the input slap image. If less fingers are detected, an exception it thrown. Valid range: 0..4</param>
+            <param name="maxFingersCount">Maximum number of fingers that has to be detected in the input slap image. If more fingers are detected, an exception it thrown. Valid range: 0..4</param>
+            <param name="maxRotation">Value indicating maximum rotation of fingers in the input slap image. Value is in degrees. Valid range: 0..45</param>
+            <param name="options">Options parameter, used for enhanced control of segmentation algorithm.</param>
+            <param name="outWidth">Indicates width of returned images of segmented fingers. If found segmented fingers are smaller, they will be centered in the middle and border will be set to bcgValue</param>
+            <param name="outHeight">Indicates height of returned images of segmented fingers. If found segmented fingers are smaller, they will be centered in the middle and border will be set to bcgValue</param>
+            <param name="bcgValue">Value used for background for returned segmented images if these images have smaller dimensions than outWith,outHeight</param>
+        </member>
+        <member name="M:Innovatrics.ISegLib.ISegLib.ManualSegmentation(Innovatrics.Sdk.Commons.RawImage,System.Drawing.Point,System.Drawing.Point,System.Drawing.Point,System.Drawing.Point,System.Byte,System.Int32,System.Int32)">
+            <summary>
+            Returns the content of the rectangle as manually specified by user. The content of this rectangle is returned as raw image.
+            </summary>
+            <param name="image">Input slap fingerprint image</param>
+            <param name="p1">Coordinates defining first point of the extracted rectangle</param>
+            <param name="p2">Coordinates defining second point of the extracted rectangle</param>
+            <param name="p3">Coordinates defining third point of the extracted rectangle</param>
+            <param name="p4">Coordinates defining forth point of the extracted rectangle</param>
+            <param name="bcgValue">Value used for background in returned image in areas where the extracted image has smaller dimensions than outWith,outHeight</param>
+            <param name="outWidth">Indicates width of returned image. If extracted image is smaller, it will be centered in the middle and border will be set to bcgValue.</param>
+            <param name="outHeight">Indicates height of returned image. If extracted image is smaller, it will be centered in the middle and border will be set to bcgValue.</param>
+            <returns>Extracted image</returns>
+        </member>
+        <member name="M:Innovatrics.ISegLib.ISegLib.ConvertRawToIso19794_4(Innovatrics.Sdk.Commons.RawImage,Innovatrics.Sdk.Commons.Enums.FingerPosition,Innovatrics.Sdk.Commons.Enums.IsoImageFormat,System.Int32)">
+            <summary>
+            Converts image stored in object to the specified image format and stores it in ISO19794_4 envelope
+            </summary>
+            <param name="rawImage">RawImage object containing image data, dimensions and DPI</param>
+            <param name="fingerPosition">Position of finger on the hand</param>
+            <param name="imageFormat">Desired image format of conversion</param>
+            <param name="rate">Indicates compression rate to be used in case of JPEG2000 or bitrate to be used in case of WSQ format. For other formats, this parameter is ignored.</param>
+            <returns>Image encoded in desired image format and stored in ISO19794_4 envelope</returns>
+        </member>
+        <member name="M:Innovatrics.ISegLib.ISegLib.ConvertIso19794_4ToRaw(System.Byte[])">
+            <summary>
+            Converts image stored in ISO19794_4 envelope to ISO19794_4Meta object which
+            stores raw image data, finger position and image format.
+            </summary>
+            <param name="isoFingerImage">Image data in ISO19794_4 envelope</param>
+            <returns>ISO19794_4Meta object containing RawImage object, finger position and image format</returns>
+        </member>
+        <member name="M:Innovatrics.ISegLib.ISegLib.SeparateFingerprints(Innovatrics.Sdk.Commons.RawImage,Innovatrics.Sdk.Commons.RawImage,Innovatrics.Sdk.Commons.RawImage,Innovatrics.Sdk.Commons.RawImage,Innovatrics.Sdk.Commons.RawImage,System.Int32,System.Int32)">
+            <summary>
+            WARNING: Unsupported function for internal purposes.
+            </summary>
+        </member>
+        <member name="M:Innovatrics.ISegLib.ISegLib.SegmentationFeedbackHasMissingFinger(System.Collections.Generic.IList{Innovatrics.ISegLib.Enums.SegmentationInfoDefines})">
+            <summary>
+            Helper function returning true if SegmentationFeedback from segmentation function contains information about missing finger.
+            </summary>
+            <param name="segmentationFeedback">Segmentation feedback</param>
+            <returns>Returns true if SegmentationFeedback.MISSING_FINGER_UNKNOWN or any of SegmentationFeedback.MISSING_FINGERX is set.</returns>
+        </member>
+        <member name="M:Innovatrics.ISegLib.ISegLib.GetFingerName(System.Collections.Generic.IList{Innovatrics.ISegLib.Enums.SegmentationInfoDefines})">
+            <summary>
+            Returns human understandable finger name encoded in segmentation feedback
+            </summary>
+            <param name="segmentationFeedback">Feedback from the segmentation function</param>
+            <returns>Finger position encoded as string</returns>
+        </member>
+        <member name="M:Innovatrics.ISegLib.ISegLib.GetErrorMessage(System.Int32)">
+            <summary>
+            Returns error message string corresponding to the specified error code.
+            </summary>
+            <param name="errcode">Error code to be translated into error message</param>
+            <returns>Error message</returns>
+        </member>
+        <member name="T:Innovatrics.ISegLib.ISO19794_4Meta">
+            <summary>
+            This class is a representation of object retrieved from ISO19794_4 envelope.
+            It contains Raw Image data as well as finger position and image format.
+            </summary>
+        </member>
+        <member name="M:Innovatrics.ISegLib.RawImageExtension.GetImageIntensity(Innovatrics.Sdk.Commons.RawImage)">
+            <summary>
+            Analyzes fingerprint image contained in the input image and returns the intensity of the contained print(s).
+            The intensity value is low for dry fingerprints (and for low pressure prints) and high for wet fingerprints (or for high pressure prints)
+            This function can be either used with single finger images or with slap images.
+            </summary>
+            <returns>Returned value indicates the intensity of the input image. Returned values are in the following range: 0..100.0 means lowest intensity (dry finger, low pressure), 100 means highest intensity (wet fnger, high pressure).</returns>
+        </member>
+        <member name="M:Innovatrics.ISegLib.RawImageExtension.RemoveBackgroundNoise(Innovatrics.Sdk.Commons.RawImage,System.Int32,System.Byte)">
+            <summary>
+            Analyzes noise level in the input fingerprint image and sets background (low quality part of the image) to
+            the specified value.
+            This function can be either used with single finger images or with slap images.
+            </summary>
+            <param name="image">Input fingeprint image (slap image or single finger image)</param>
+            <param name="filterPower">Indicates how much of the background should be eliminated. Valid range: 0..100. Recommended value is 50.Bigger value means more eliminated background.</param>
+            <param name="bcgValue">Value that will be set in all parts of the image classified as background. 255 means white color.</param>
+            <returns>Image after background removal</returns>
+        </member>
+        <member name="M:Innovatrics.ISegLib.RawImageExtension.GetNFIQScore(Innovatrics.Sdk.Commons.RawImage)">
+            <summary>
+            Returns NFIQ score (quality score defined by NIST) a fingerprint image
+            quality of the input fingerprint image. Image quality number is calculated in accordance with the general guidelines contained in Section 2.1.42 of ANSI/INCITS 358 standard.
+            </summary>
+            <param name="image">Input fingeprint image (single finger image)</param>
+            <returns>NFIQ quality score, the output range is from 1 (highest quality) to 5 (lowest quality)</returns>
+        </member>
+        <member name="M:Innovatrics.ISegLib.RawImageExtension.ConvertImageToRaw(System.Drawing.Image)">
+            <summary>
+            Converts Image to raw data
+            </summary>
+            <param name="image">Input image</param>
+        </member>
+        <member name="M:Innovatrics.ISegLib.RawImageExtension.ConvertImageToRaw(System.Byte[],Innovatrics.ISegLib.Enums.ISegLibImageFormat)">
+            <summary>
+            Converts Image to raw data
+            </summary>
+            <param name="image">Input image</param>
+            /// <param name="format">Format of input image</param>
+            /// <returns>Image as RawImage</returns>
+            <param name="format">Format of input image</param>
+            <returns>Image as RawImage</returns>
+        </member>
+        <member name="M:Innovatrics.ISegLib.RawImageExtension.ConvertRawToImage(Innovatrics.Sdk.Commons.RawImage)">
+            <summary>
+            Converts raw data to image in PNG format
+            </summary>
+            <param name="image">The raw image.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Innovatrics.ISegLib.RawImageExtension.ConvertRawToImage(Innovatrics.Sdk.Commons.RawImage,Innovatrics.ISegLib.Enums.ISegLibImageFormat)">
+            <summary>
+            Converts raw data to byte array
+            </summary>
+            <param name="image">Input raw image.</param>
+            <param name="format">Output format of image.</param>
+            <returns>Image as byte array</returns>
+        </member>
+        <member name="M:Innovatrics.ISegLib.RawImageExtension.ConvertRawToImage(Innovatrics.Sdk.Commons.RawImage,Innovatrics.ISegLib.Enums.ISegLibImageFormat,System.Int32)">
+            <summary>
+            Converts raw data to byte array using a default rate value 1.
+            </summary>
+            <param name="image">Input raw image.</param>
+            <param name="format">Output format of image.</param>
+            <param name="rate">Indicates compression rate to be used in case of JPEG2000 or bitrate to be used in case of WSQ format. For other formats, this parameter is ignored.</param>
+            <returns>Image as byte array</returns>
+        </member>
+        <member name="M:Innovatrics.ISegLib.RawImageExtension.GetImageQuality(Innovatrics.Sdk.Commons.RawImage)">
+            <summary>
+            Returns quality of the input fingerprint image. Image quality number is calculated in accordance with the general guidelines contained in Section 2.1.42 of ANSI/INCITS 358 standard.
+            </summary>
+            <param name="image">Input fingeprint image</param>
+            <returns>
+            Fingerprint image quality, the output range is from 0 (lowest quality) to 100 (highest quality)
+            </returns>
+        </member>
+        <member name="M:Innovatrics.ISegLib.RawImageExtension.GetImageQualityInfo(Innovatrics.Sdk.Commons.RawImage,System.Int32@)">
+            <summary>
+            Returns color quality map (as image) corresponding to the input fingerprint image.
+            It also returns total number of active pixels (pixels located in high quality zone, not lying in the noisy background).
+            Total active pixels count can be used in order to detect void/blank images.
+            This function works for both slap images and single finger images.
+            </summary>
+            <param name="image">The image.</param>
+            <param name="activePixelsCount">Number of active pixels (pixels located in high quality zone)</param>
+            <returns>
+            Color image representing quality map
+            </returns>
+        </member>
+        <member name="M:Innovatrics.ISegLib.RawImageExtension.GetPlacementScore(Innovatrics.Sdk.Commons.RawImage)">
+            <summary>
+            Returns fitness of the finger placement.
+            This function returns the finger placement quality of the input fingerprint image. The placement score number ranges from 0 to 100 and represents the fitness of the finger placement, evaluated with respect to the detected fingerprint classification (arch, loop, whorl).
+            </summary>
+              <param name="image">Input slap fingerprint image</param>
+            <returns>Placement score</returns>
+        </member>
+        <member name="T:Innovatrics.ISegLib.RolledPrintResult">
+            <summary>
+            This class is representation of object that stores feedback signalizing various exceptions (rolling direction change, shifted finger, too high speed,...).
+            It is the result of RolledPrint_ProcessFrame() method.
+            </summary>
+        </member>
+        <member name="P:Innovatrics.ISegLib.SegmentationResult.BoxedImage">
+            <summary>
+            Color image with color boxes indicating positions of detected fingers
+            </summary>
+            <value>
+            The boxed image.
+            </value>
+        </member>
+        <member name="P:Innovatrics.ISegLib.SegmentationResult.GlobalAngle">
+            <summary>
+            On return, contains average rotation angle (in degrees) of fingers detected in the input slap image
+            </summary>
+            <value>
+            The global angle.
+            </value>
+        </member>
+        <member name="P:Innovatrics.ISegLib.SegmentationResult.Confidence">
+            <summary>
+            Confidence of the segmentation result. Range: 0-100
+            </summary>
+            <value>
+            The confidence.
+            </value>
+        </member>
+        <member name="P:Innovatrics.ISegLib.SegmentationResult.Fingerprints">
+            <summary>
+            Individual fingerprint after semgmentation
+            </summary>
+            <value>
+            The fingerprints.
+            </value>
+        </member>
+        <member name="P:Innovatrics.ISegLib.SegmentationResult.SegmentationFeedback">
+            <summary>
+            Indicates extra information such as hand position (left/right), missing finger position (in case when expectedFingersCount=4 but segmentation function finds only 3 prints)
+            </summary>
+            <value>
+            The segmentation feedback.
+            </value>
+        </member>
+        <member name="P:Innovatrics.ISegLib.SegmentationResult.SegmentedFigersCount">
+            <summary>
+            On return, contains number of fingers found in the input image
+            </summary>
+            <value>
+            The segmented figers count.
+            </value>
+        </member>
+        <member name="P:Innovatrics.ISegLib.SegmentedFingerprint.RoundingBox">
+            <summary>
+            Coordinates of rectangles where detected fingers are lying. 4 points are returned for each detected finger
+            </summary>
+            <value>
+            The rounding box.
+            </value>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProjectGuid>{7EF4BE7D-1E42-4689-B8C4-BFB8591883B5}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>BIODV</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>false</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>false</DebugSymbols>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>pdbonly</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+
+<Reference Include="System.Drawing">	
+	<HintPath>.\BIODVReferences\System.Drawing.dll</HintPath>
+    </Reference> 
+	<Reference Include="System.Drawing.Common">	
+	<HintPath>.\BIODVReferences\System.Drawing.Common.dll</HintPath>
+    </Reference>   
+    <Reference Include="Innovatrics.IDKit, Version=7.4.0.0, Culture=neutral, PublicKeyToken=0bfe3bd71f8c6cda">
+      <HintPath>.\BIODVReferences\Innovatrics.IDKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Enroll.Core">
+      <HintPath>.\BIODVReferences\Enroll.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.World">
+      <HintPath>.\BIODVReferences\Emgu.CV.World.dll</HintPath>
+    </Reference>    
+    <Reference Include="Common.Biometric">
+      <HintPath>.\BIODVReferences\Common.Biometric.dll</HintPath>
+    </Reference>
+    <Reference Include="SampleSegmentation">
+      <HintPath>.\BIODVReferences\SampleSegmentation.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoScan, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>.\BIODVReferences\AutoScan.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.Ribbon">
+      <HintPath>.\BIODVReferences\System.Windows.Forms.Ribbon.dll</HintPath>
+    </Reference>
+    <Reference Include="GBMSDemo, Version=2.4.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>.\BIODVReferences\GBMSDemo.dll</HintPath>
+    </Reference>
+    <Reference Include="Common">
+      <HintPath>.\BIODVReferences\Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Sincronizacion">
+      <HintPath>.\BIODVReferences\Sincronizacion.dll</HintPath>
+    </Reference>
+    <Reference Include="Innovatrics.IFace, Version=3.7.0.0, Culture=neutral, PublicKeyToken=0bfe3bd71f8c6cda">
+      <HintPath>.\BIODVReferences\Innovatrics.IFace.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow">
+      <HintPath>.\BIODVReferences\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video">
+      <HintPath>.\BIODVReferences\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>.\BIODVReferences\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="JPEG_NET_WRAPPER, Version=4.0.0.0, Culture=neutral, PublicKeyToken=c3d4033757d795be">
+      <HintPath>.\BIODVReferences\JPEG_NET_WRAPPER.dll</HintPath>
+    </Reference>
+    <Reference Include="WSQ_NET_WRAPPER, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b5007ff9337c618f">
+      <HintPath>.\BIODVReferences\WSQ_NET_WRAPPER.dll</HintPath>
+    </Reference>   
+    <Reference Include="Innovatrics.Sdk.Commons">
+      <HintPath>.\BIODVReferences\Innovatrics.Sdk.Commons.dll</HintPath>
+    </Reference>    
+    <Reference Include="GBMSGUI_NET">
+      <HintPath>.\BIODVReferences\GBMSGUI_NET.dll</HintPath>
+    </Reference>	
+	<Reference Include="System.Windows.Forms" />
+	<Reference Include="System" />
+	<Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+	<Reference Include="System.Xml.Linq" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.ServiceModel" />
+	<Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="netstandard" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ObtenerUsuariosResponse.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Util\Validador.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Modelo\DatosDireccion.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ArchivosBioResponse.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\CrearUsuarioResponse.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\IswArchivos.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Util\JsonHelper.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Modelo\DatosUsuario.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ArchivosEpdRequest.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Modelo\DatosGenerales.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ObtenerUsuarioPorIdRequest.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ArchivosFacRequest.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Sample\DataGridViewProgressCell.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ModificarUsuarioRequest.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ArchivosFacResponse.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ObtenerUsuarioPorIdResponse.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ArchivosEpdResponse.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ArchivosBas64Request.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Modelo\DatosLogin.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ModificarUsuarioResponse.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ArchivosHueRequest.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ActualizarUsuarioPasswordRequest.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Modelo\DatosMarcas.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ArchivosBas64Response.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ArchivosHueResponse.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Modelo\Usuario.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ArchivosBasRequest.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Modelo\Usuarios.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ActualizarUsuarioPasswordResponse.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ArchivosBasResponse.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Modelo\DatosDescriptivos.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\CrearUsuarioRequest.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ObtenerUsuariosRequest.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ArchivosBio64Request.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Modelo\DatosNacionalidad.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ArchivosBioRequest.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ArchivosBio64Response.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Modelo\DatosAlias.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ArchivosFac64Request.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Sample\DataGridViewProgressColumn.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ArchivosFac64Response.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Modelo\DatosPassword.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ArchivosHue64Request.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Modelo\DatosIdentificativos.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\ArchivosHue64Response.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\IswArchivosChannel.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Modelo\DatosPasswordReset.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Properties\Settings.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\cMatcheo.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Program.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Util\ConstantesExpresionesRegulares.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Util\ValidacionHelper.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Modelo\DatosTatuajes.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Util\ResultadoValidacionEntidad.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Util\EntityValidator_T_.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\swCentralCore\IswArchivosClient.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Control\Alias.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>Alias.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Util\Serializer.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Util\CargarControl.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Util\StringCipher.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Properties\Resources.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Control\Direccion.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>Direccion.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Control\Nacionalidades.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>Nacionalidades.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Icao.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BIODV\Foto.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BIODV\fLogin.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BIODV\Test.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BIODV\fMaestro.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BIODV\fUsuarioNuevo.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BIODV\fUsuarioPassword.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BIODV\fUsuarioReseteo.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BIODV\fValidarHuellar.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BIODV\fPaquetes.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BIODV\fCapturaFacial.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BIODV\fPrincipal.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BIODV\fMarcasTatuaje.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BIODV\fCropB.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BIODV\fDatosBiograficos.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BIODV\fEnrolar.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="BIODV\Foto.resx">
+      <DependentUpon>Foto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BIODV\fLogin.resx">
+      <DependentUpon>fLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BIODV\Test.resx">
+      <DependentUpon>Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BIODV\fMaestro.resx">
+      <DependentUpon>fMaestro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BIODV\fUsuarioNuevo.resx">
+      <DependentUpon>fUsuarioNuevo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BIODV\fUsuarioPassword.resx">
+      <DependentUpon>fUsuarioPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BIODV\fUsuarioReseteo.resx">
+      <DependentUpon>fUsuarioReseteo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BIODV\fValidarHuellar.resx">
+      <DependentUpon>fValidarHuellar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BIODV\fPaquetes.resx">
+      <DependentUpon>fPaquetes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BIODV\fCapturaFacial.resx">
+      <DependentUpon>fCapturaFacial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BIODV\fPrincipal.resx">
+      <DependentUpon>fPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BIODV\fMarcasTatuaje.resx">
+      <DependentUpon>fMarcasTatuaje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BIODV\fCropB.resx">
+      <DependentUpon>fCropB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BIODV\fDatosBiograficos.resx">
+      <DependentUpon>fDatosBiograficos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BIODV\fEnrolar.resx">
+      <DependentUpon>fEnrolar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BIODV\Control\Alias.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Alias.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BIODV\Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BIODV\Control\Direccion.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Direccion.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BIODV\Control\Nacionalidades.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Nacionalidades.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,1057 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Usuarios>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>123456</Identificacion>
+      <Complemento />
+      <PrimerNombre>admin</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>policia</PrimerApellido>
+      <SegundoApellido></SegundoApellido>
+      <txtUsuario>admin.policia</txtUsuario>
+      <Pass>771vAYZWDpTQbV566rgEnSJCGajrXQ+eUc6VZ1UsMpwSodKEpwehxrdMR38v8Wp44hao4VG13g/CeT6DMypZxUkCuBbftl4qq3DYyb86pPWB4DgEFKR8Q+tkqnwYVJx+</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>223344</Identificacion>
+      <Complemento />
+      <PrimerNombre>JOSEJOSE</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>QUIROGA</PrimerApellido>
+      <SegundoApellido>QQQQ</SegundoApellido>
+      <txtUsuario>josejose.quiroga</txtUsuario>
+      <Pass>FJGlg3OBs/oJurWMQh+xLprD96Y7un4SX/Zchq2pWkEmE/rYDuRkeYgv3RLgHDuJPGwm32L6zGaRWOdDqRi6zXNOiQ7/+32bZ8UmuVZZRv7m1mozNRErrB13jsiENNaT</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>32132|</Identificacion>
+      <Complemento />
+      <PrimerNombre>WWW</PrimerNombre>
+      <SegundoNombre>ZZZ</SegundoNombre>
+      <PrimerApellido>QQQ</PrimerApellido>
+      <SegundoApellido>XXX</SegundoApellido>
+      <txtUsuario>www.qqq</txtUsuario>
+      <Pass>P4EqUjh1h93SThPFi05fQ6Wh7PowwT7ZuQ9DWsWvpiIZOUWRo87wl3Nvfy+VqmaQbHJYRQZUU8IkTcB1Nm+F64o1Po6jAvCAwIQXdpkY9t4VZUTigQ6vL0h6eyYSpoJQ</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>12345678</Identificacion>
+      <Complemento />
+      <PrimerNombre>PRUEBA</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>TEST</PrimerApellido>
+      <SegundoApellido>TEST</SegundoApellido>
+      <txtUsuario>prueba.test</txtUsuario>
+      <Pass>LBWs94Qu0CscGGE8WDKtOZjEJyqThNYuyj8SlGH3ZRjk4itt2rppDO1/6PKP5+eFhYpi586uEVWRIYwXezTU7qznn1CkzU5XDFYeoUzIz49EhTTT1oreoucP6C8kvGEe</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>789456</Identificacion>
+      <Complemento />
+      <PrimerNombre>POLICIA</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>FELCN</PrimerApellido>
+      <SegundoApellido>FELCN</SegundoApellido>
+      <txtUsuario>policia.felcn</txtUsuario>
+      <Pass>OP82ggF2xjtPElV0DLmfRpvaRMNkXQBgolQpAfEJT4BDu6v/J9wUhBvHmQGnzQu+4GU1CjyCpaM3wcxcsEFPbB6cKuKsvTIcLEV7GNhplWRdi4UxM6SczL0tYITIn2zq</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>1232322</Identificacion>
+      <Complemento />
+      <PrimerNombre>POLICIA</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>PLAN300</PrimerApellido>
+      <SegundoApellido></SegundoApellido>
+      <txtUsuario>policia.plan300</txtUsuario>
+      <Pass>Ro0Fxcjrmz15wQccZnQ/Dv7lApyjN6EQseyKMeXxPuhQzTSrRlEd3a0mwjySL3Vfq/7YIwmVmyup1pIUC0lE5P5mnxHLwDCDq99s8CG4iZUn9ynzuuglOh0A1xi3LZvV</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>123456789</Identificacion>
+      <Complemento />
+      <PrimerNombre>POLICIA</PrimerNombre>
+      <SegundoNombre>PLAN3000</SegundoNombre>
+      <PrimerApellido>PLAN</PrimerApellido>
+      <SegundoApellido></SegundoApellido>
+      <txtUsuario>policia.plan</txtUsuario>
+      <Pass>iID91R0kiq7fqeTCbTr6E56gDgd/jUQkgiSK3liPu5k2ZmrhjsxIYCOCpiMPmAouUsiYfCtg773387nwyv08cH2nNc5tCWRf9YUTd1lG7O1IxGoPM3oUS/QFtlopE2LE</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>6546865</Identificacion>
+      <Complemento />
+      <PrimerNombre>POLICIA</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>FELCV</PrimerApellido>
+      <SegundoApellido></SegundoApellido>
+      <txtUsuario>policia.felcv</txtUsuario>
+      <Pass>Yy7rz3bbMoJL62YVeHkx5h/DOu7c3xB/lKBPJJXpOQ1hSDgOzQG72ctLOhXtBwnflsIDnZrtF77RgEddPfP8Su37LrL8fdfoHE9SqADiOIx42vFrgE6MvApndZxflSmG</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>4234423423</Identificacion>
+      <Complemento />
+      <PrimerNombre>POLICIA</PrimerNombre>
+      <SegundoNombre>DIPROVE</SegundoNombre>
+      <PrimerApellido>DIPROVE</PrimerApellido>
+      <SegundoApellido></SegundoApellido>
+      <txtUsuario>policia.diprove</txtUsuario>
+      <Pass>vWtzTRTwIsHphflJr6K6oGhHg0wvSFf5XeTzfIiBtunOmA9N5yfhCgZZpS9wRU2B7+XqT3mVCRS5Gs3ebw3dGvSRoNZaKZmxsZOB0KEmNXWdGom9gQ0b6RRqciumw0qd</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>434343434</Identificacion>
+      <Complemento />
+      <PrimerNombre>POLICIA</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>FELCC</PrimerApellido>
+      <SegundoApellido></SegundoApellido>
+      <txtUsuario>policia.felcc</txtUsuario>
+      <Pass>pIZgmGbgihPZt/Ht1RjOwrJOV++9HCUwok+19jEZBu72kACbE5z4HmNXLVBKE7P4bVzWEHpVSDNuD6m+RuD98t4GrsDvCbvq0EIA6HntI+dlobuzZ6ss8XVCrMC+QAtp</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>8411215</Identificacion>
+      <Complemento />
+      <PrimerNombre>EDWINZO</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>VARGAS</PrimerApellido>
+      <SegundoApellido>QUISPE</SegundoApellido>
+      <txtUsuario>edwinzo.vargas</txtUsuario>
+      <Pass>KAYlVN662YNudHxZQnO28idXX2xraEn29D00M8PB4ZE4L9KBsGjCWo31Cdq67g9MNVXcSwoBKt1MGl8cNeusRGnYbjiCUKSU8hsGRbG8i8O3Q9mKa3QnksGRLNv0V/c+</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>7044082</Identificacion>
+      <Complemento />
+      <PrimerNombre>MARIO</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>MAMANI</PrimerApellido>
+      <SegundoApellido>NINA</SegundoApellido>
+      <txtUsuario>mario.mamani</txtUsuario>
+      <Pass>noC42kZcrEmoXygtXaU1LavTlQBvSEFR4EMF//C4p83PNQfILiblMtMGx9c1fhfc3a9wYiwF+PKTT2OheL3CNyKSjITSr+J32bok6jwBHgaIzR5argTwYuAk7lCGOl5f</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>6478872</Identificacion>
+      <Complemento />
+      <PrimerNombre>ELISEO</PrimerNombre>
+      <SegundoNombre>MAURICIO</SegundoNombre>
+      <PrimerApellido>ZULETA</PrimerApellido>
+      <SegundoApellido>SARDAN</SegundoApellido>
+      <txtUsuario>eliseo.zuleta</txtUsuario>
+      <Pass>i8NyLkVdcgAnHrfgVCiNWtoL6C51+TeM+IRgxmL4qxDRCIlgrTCSjJsGGuHpgnXNrbiDCWLlfGtbfQWv8FS63n1z4EUJWjeGqHu0b58amQzCAQ5RBcOpQqgvpbLbvqbl</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>10029038</Identificacion>
+      <Complemento />
+      <PrimerNombre>LUIS</PrimerNombre>
+      <SegundoNombre>ANGEL</SegundoNombre>
+      <PrimerApellido>CHOQUETARQUI</PrimerApellido>
+      <SegundoApellido>CONDORI</SegundoApellido>
+      <txtUsuario>luis.choquetarqui</txtUsuario>
+      <Pass>Umf4LHM0TYqSjSxhpLF76ynozfl024E1cnGRw33mW+fOms6OlE1M7DyjrAhFwnwHmeS6fFlWK9Sy6Rm+0/mhxzILjH3FsWJBFohYZOJOztsjHpFrlduyTVoSNkn86mBK</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>7046400</Identificacion>
+      <Complemento />
+      <PrimerNombre>ALVARO</PrimerNombre>
+      <SegundoNombre>RODRIGO</SegundoNombre>
+      <PrimerApellido>CALLE</PrimerApellido>
+      <SegundoApellido>MAYDANA</SegundoApellido>
+      <txtUsuario>alvaro.calle</txtUsuario>
+      <Pass>uj9rccqQNeZDNSLXJIo9Nz+gwBDSM/ytrfIrZ7mmKewKHK/oBPhE7LBf6GzAPuVV14Vk0ZeZXfujxuzyuk3Kf9DIRWhBBjbnNSeI4kCITbalHVRYQCcUThthibau77eu</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>4495724</Identificacion>
+      <Complemento />
+      <PrimerNombre>MARCO</PrimerNombre>
+      <SegundoNombre>ANTONIO</SegundoNombre>
+      <PrimerApellido>SALAZAR</PrimerApellido>
+      <SegundoApellido>MAIDA</SegundoApellido>
+      <txtUsuario>marco.salazar</txtUsuario>
+      <Pass>1BGgsziY60HTN4a1FVWGPBWdd4IlNIpPbYqCkrRH1qurIhW3qcZQ8rn7/AbIwMWFxzgV7K/yzfW3PZu16rotzOOMvfm+3Z/w7LtZ9bfxOORNE5tfcMLYz/hj8cVKRTck</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>12893462</Identificacion>
+      <Complemento />
+      <PrimerNombre>GONZALO</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>CONDORI</PrimerApellido>
+      <SegundoApellido>LARUTA</SegundoApellido>
+      <txtUsuario>gonzalo.condori</txtUsuario>
+      <Pass>CBKGQALSqypBSwOPGJo/P078OmxwNn2XXZ/U5RjHxAKyiNyfOOw4XYySS9KslcWN4+i6QRFxtok9cOYPAvvkOZGu+suO4jDMAU98zfsmmR5SD9s2/sjLUqJmIo/xPX5t</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>7023562</Identificacion>
+      <Complemento />
+      <PrimerNombre>ROSARIO</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>TUCO</PrimerApellido>
+      <SegundoApellido>FLORES</SegundoApellido>
+      <txtUsuario>rosario.tuco</txtUsuario>
+      <Pass>UYZnmatzzZHEawnorYEoTAtsh22yUTcMrkxnRiesTcP/tFi+9jIBzYqd+WCUaKjyW3l0nWe2m3rgF58uIBbPtaCp6UjteIu/XrS003trjlabNhNLfdFZp9kRzv/4l0nD</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>5928788</Identificacion>
+      <Complemento />
+      <PrimerNombre>LIDIA</PrimerNombre>
+      <SegundoNombre>IBET</SegundoNombre>
+      <PrimerApellido>SOLIZ</PrimerApellido>
+      <SegundoApellido>ALMENDRAS</SegundoApellido>
+      <txtUsuario>lidia.soliz</txtUsuario>
+      <Pass>YxnVoiB3me1hFYWMTpsAndaspuNuMxOu5/Uizg8urrMx7mT8BTvmtF0WB4mXQflJEJyVxtGb1DkMXUsVscd/Din7cJOBJ5cr6li6aSes7yviYe08DRYndDelBa7SvIjF</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>5669289</Identificacion>
+      <Complemento />
+      <PrimerNombre>DAVID</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>CHAVEZ</PrimerApellido>
+      <SegundoApellido>TORREZ</SegundoApellido>
+      <txtUsuario>david.chavez</txtUsuario>
+      <Pass>cOUxEAXbQGQ+pTmmZ1ZUSWJSs0WpwWcbrtyYeNGjCz2sWL5Qdjn7BZqkvHC+quVy364Uzdu2iIanPU0xxt7M3BMBbm1B9Hrxbv0z8e7uhCSjKDReNYjXPRh7vMWoji0N</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>3112746</Identificacion>
+      <Complemento />
+      <PrimerNombre>VIDAL</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>GOMEZ</PrimerApellido>
+      <SegundoApellido>CALISAYA</SegundoApellido>
+      <txtUsuario>vidal.gomez</txtUsuario>
+      <Pass>WPP6ELPRY+L/mihi13W5i6Sq2z7qLCf355PzahcdOxupmsNf2zOxknN4ljFhRVFyPuRZM6qOdUfeRcg+IeFVjnMyMi7IYx0u4Qjj2NaLsGvMN9+ebjOC05eBqf7PXEAV</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>6640693</Identificacion>
+      <Complemento />
+      <PrimerNombre>JHONNY</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>MEDINACELI</PrimerApellido>
+      <SegundoApellido>FLORES</SegundoApellido>
+      <txtUsuario>jhonny.medinaceli</txtUsuario>
+      <Pass>uxFROZAkcOJSYzhbaDEutZXxyPLdnQYHdnGD19rVcuC72C8XZaPKTFKbL4vwKrLssuWraqoWp+OXtjaUdIYgtZylBaOp0NBqt3IbkW20OWbhgdxPXMD6vdt7w79e77gc</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>4005818</Identificacion>
+      <Complemento />
+      <PrimerNombre>DELINA</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>CHOQUE</PrimerApellido>
+      <SegundoApellido>CHOQUE</SegundoApellido>
+      <txtUsuario>delina.choque</txtUsuario>
+      <Pass>0I6H1g6n+rAbKlPlhpv1Ztc4yOltDB+T8Oz3lugAS+TF0Hrj/f0SpQM7xu1W4hzs44UJyzIQYRwukWXWt2JqONw+dNTQkG5P7Wv0X0kL/KE0/c1c+8LeT/kaCCVS97Vz</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>8698398</Identificacion>
+      <Complemento />
+      <PrimerNombre>JOSE</PrimerNombre>
+      <SegundoNombre>LIMBER</SegundoNombre>
+      <PrimerApellido>MANANI</PrimerApellido>
+      <SegundoApellido>LLANQUE</SegundoApellido>
+      <txtUsuario>jose.manani</txtUsuario>
+      <Pass>gsLIv/tVq3e9puPcTNwjVrQS2z5SfDaAUar677AbzINxiQFkUVwwVNW1LofvKMWRlItCoTAJChAYr6g3JDJnvlsrrun7M3dZ2MxmUtx9BZUqz8L5HJbTmz+zhc7dPzL/</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>9520104</Identificacion>
+      <Complemento />
+      <PrimerNombre>CARMEN</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>VARGAS</PrimerApellido>
+      <SegundoApellido>ACHACOLLO</SegundoApellido>
+      <txtUsuario>carmen.vargas</txtUsuario>
+      <Pass>uKj5CXKKLBiiVlQxTyaYSbCxMTLglhjLYuwZZP+4fWgAOm146ua+NwF51l4fdP1nAi1nBnA/AOYs5O5Rb26LrUMrRyK8fEJHi2PajmelUTpzhR/sZtRdMtHFiQVTJlk+</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>7084797</Identificacion>
+      <Complemento />
+      <PrimerNombre>EDDY</PrimerNombre>
+      <SegundoNombre>RAMIRO</SegundoNombre>
+      <PrimerApellido>MAMANI</PrimerApellido>
+      <SegundoApellido>MUJICA</SegundoApellido>
+      <txtUsuario>eddy.mamani</txtUsuario>
+      <Pass>aLLq894PHuHXHRTKCS+1HKHk016dMAUhRjzYzMF/jdAPk+lt8AZcqP5ItIXqv0d1wSSGln7YqDK6fZO/n2PpzNvqBdl8kSGXOdm9/nFL1Y5UIMEaa+MQFGYF3RrsoStG</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>7491429</Identificacion>
+      <Complemento />
+      <PrimerNombre>JUAN</PrimerNombre>
+      <SegundoNombre>CARLOS</SegundoNombre>
+      <PrimerApellido>KAPAICO</PrimerApellido>
+      <SegundoApellido>KELKASI</SegundoApellido>
+      <txtUsuario>juan.kapaico</txtUsuario>
+      <Pass>zByHTiDrCBoE3dZrFAimsYZu8q7DP5H8GY1D6KSiADAZ4uX0j9lBXwWGuSQAPUeKmmzzxgWp2N8l1gI+WKwQ7JXLrq4qYUusW68ByGikR1OCiOXEW6TfFC+nUsf0erCR</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>6913233</Identificacion>
+      <Complemento />
+      <PrimerNombre>CRISTIAN</PrimerNombre>
+      <SegundoNombre>YHAMIL</SegundoNombre>
+      <PrimerApellido>CORONEL</PrimerApellido>
+      <SegundoApellido>ESCOBAR</SegundoApellido>
+      <txtUsuario>cristian.coronel</txtUsuario>
+      <Pass>r3iU3XOiMN3WWJZdvzOxMoS85+q/VabKKxheSd3cUeNw/8ysEadY9Y7/MuH3HHhpd9Wg8Q46cdS2TKa+2WCaVzpO6eqaauGb3UVbtb+xClZ2J33NZ6yyPPgw2PHLUfnG</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>8819303</Identificacion>
+      <Complemento />
+      <PrimerNombre>DANY</PrimerNombre>
+      <SegundoNombre>ERIKA</SegundoNombre>
+      <PrimerApellido>CLAURE</PrimerApellido>
+      <SegundoApellido>VELA</SegundoApellido>
+      <txtUsuario>dany.claure</txtUsuario>
+      <Pass>ARcssYGfKPXTNQvxnIRC0E806VzPJELzyPbfIFKDjUMRs4vUw67QrOoBn9H//B8vOihglP5gmoCaEECKURYa+TloHqxB4ptiDLPZFsEtsCkhMOGgJtWOL/aBDXT5ZQxr</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>5669289</Identificacion>
+      <Complemento />
+      <PrimerNombre>DAVID</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>CHAVEZ</PrimerApellido>
+      <SegundoApellido>TORREZ</SegundoApellido>
+      <txtUsuario>david.chavez1</txtUsuario>
+      <Pass>2r7+VI/2GKsPoIoBFKMYEfixtX+wG+5oNnpm6jAKpghEcAOsuDgBZFYztIIjxMkpZBzKHs2WJS+u8qjii7/igLfHoCp+ZDVL75hc9rfUVU2C2x5UvgXOAmKT5mJOPUp6</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>4755492</Identificacion>
+      <Complemento />
+      <PrimerNombre>ANGEL</PrimerNombre>
+      <SegundoNombre>PABLO</SegundoNombre>
+      <PrimerApellido>CHUQUIMIA</PrimerApellido>
+      <SegundoApellido>MUÑOZ</SegundoApellido>
+      <txtUsuario>angel.chuquimia</txtUsuario>
+      <Pass>ch0W4fJW0oXo31Z11hkInxfvJRfQ1pxf9PPSal5KuxA7VACPatIKneMSAMKr6xP9KJ9EJVr2XRkH47ZuetS7++v1+1X6gbQ+zkWO+4NnyNe1IjHB72LS5YwKoTU7n3/4</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>6800414</Identificacion>
+      <Complemento />
+      <PrimerNombre>SERGIO</PrimerNombre>
+      <SegundoNombre>DANIEL</SegundoNombre>
+      <PrimerApellido>ABASTO</PrimerApellido>
+      <SegundoApellido>HERRERA</SegundoApellido>
+      <txtUsuario>sergio.abasto</txtUsuario>
+      <Pass>Pl1F0l5Fd+P1/+YnJFV/zdBlsWva2oDnNfNwH5fedX2M3r+zdDdx0tDmJ5Pj63Ca5Ph1rFt/MOXZuhUMsEvdKVzb/k+GURbT9tp21kj4JYA+0QF9JiUSkpGxDdU2LDki</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>4837321</Identificacion>
+      <Complemento />
+      <PrimerNombre>ANTENOR</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>APAZA</PrimerApellido>
+      <SegundoApellido>RAMOS</SegundoApellido>
+      <txtUsuario>antenor.apaza</txtUsuario>
+      <Pass>xCqjga8dZyoVlLtYblwbrhcILZQ52AAK9xR6Dw74U2Sxkv9lvyA2tMYF0WqQf99AJ+eyE2nApDfNeqUW4lCST8pnOWVMjiWjSln5kQrhyH//eDALRWEdaGSx8pOAECzt</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>7303386</Identificacion>
+      <Complemento />
+      <PrimerNombre>ROLANDO</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>AYZA</PrimerApellido>
+      <SegundoApellido>CARO</SegundoApellido>
+      <txtUsuario>rolando.ayza</txtUsuario>
+      <Pass>WhKb4VlBpw8HwxbPfDwiPFtVX60oHIwODSkN4gV8XHWICYXE7IsGEsL9oVtEfYuNtFwQrxPJ6vqENX7KkINd8pl97VUlek1VNKbGUI/2u5juOWPK2n2Q0ua7BBtEHF2d</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>987654331</Identificacion>
+      <Complemento />
+      <PrimerNombre>POLICIA</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>INTERPOL</PrimerApellido>
+      <SegundoApellido></SegundoApellido>
+      <txtUsuario>policia.interpol</txtUsuario>
+      <Pass>ONwkk7jMpcQ8ZX9kuU4ZZJrKPF/UMxIimrbSTyrTQVwGJHdccSZVddJvcifDuqkhIKOTXY3pmp+kSTJp/9r3fp1kbLPLkEU4TdM4kLqGizywV6PpHNsi2nAh3DOCtVeR</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>12344172</Identificacion>
+      <Complemento />
+      <PrimerNombre>SILVIA</PrimerNombre>
+      <SegundoNombre>MONICA</SegundoNombre>
+      <PrimerApellido>GONZALES</PrimerApellido>
+      <SegundoApellido>AYZA</SegundoApellido>
+      <txtUsuario>silvia.gonzales</txtUsuario>
+      <Pass>ib7zN6RFg3MKXOyo2JZv3XT6vdLn51sXYMPqnJQKTBAd9eKwUXGK9J9SAI0EP0g0GsulHx5mx1udD99hfbeMF9X6qePcAZ4F9IjMJU2KvOOZqWXIteoVpUP8o+g9MR1c</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>52515227</Identificacion>
+      <Complemento />
+      <PrimerNombre>GABRIEL</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>BALDERRAMA</PrimerApellido>
+      <SegundoApellido>CONDORI</SegundoApellido>
+      <txtUsuario>gabriel.balderrama</txtUsuario>
+      <Pass>1D2NI+NTbFA7X3yxYz1MdINDh6Gk88TwoyYEbP2L+/RMEVdrTkWjLqfdhm8vGJe4mcjk3xevz4yRYsALhCUSYtS51wHy/ysh+B3JpLMsdgYcUSg6Y21R0ubHRT+qE2Af</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>10847811</Identificacion>
+      <Complemento />
+      <PrimerNombre>RODRIGO</PrimerNombre>
+      <SegundoNombre>RAI</SegundoNombre>
+      <PrimerApellido>RAMOS</PrimerApellido>
+      <SegundoApellido>CATARI</SegundoApellido>
+      <txtUsuario>rodrigo.ramos</txtUsuario>
+      <Pass>kFeek0/oyTFV2nYT2uPOGCC3/tdlrecLSrNeTxUEKL+zTofre1gGepeSGWCLH9a6tIaq3Oh0qvKR6hdDknv9H6VE9xykwmH6vQB8s0NQYv9DM928xm2m9Ke++X3+ZPFk</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>7362814</Identificacion>
+      <Complemento />
+      <PrimerNombre>JHONSON</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>QUISPE</PrimerApellido>
+      <SegundoApellido>CHUNGARA</SegundoApellido>
+      <txtUsuario>jhonson.quispe</txtUsuario>
+      <Pass>yl8mbWcc/Pp4+4clZzzO4lqUTLZjxTobfJabiMAqaNNoT5zBoiLhjnziEeRmEMFoQKUlyEMF5/T7KjYNCg+o5Su9s3ruMcgyOx9vQnyQqIK7HP13nGtb6pqO0TW1OfNL</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>8649394</Identificacion>
+      <Complemento />
+      <PrimerNombre>JUAN</PrimerNombre>
+      <SegundoNombre>CARLOS</SegundoNombre>
+      <PrimerApellido>CAMARGO</PrimerApellido>
+      <SegundoApellido>ROMERO</SegundoApellido>
+      <txtUsuario>juan.camargo</txtUsuario>
+      <Pass>Ic8Vb2ltuDBnbOvMqmdQISWf2zQkGaYvKrjTv+aP9FyB/rkYjnSyc4HM5PXE9yQcyYDj/1sJkRgJk2LqyuIxejQ+f2v4Kag5L/3Usjv4gWVxkzcNMZeYA8fGWk+RsO3/</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>4085161</Identificacion>
+      <Complemento />
+      <PrimerNombre>MARCO</PrimerNombre>
+      <SegundoNombre>ANTONIO</SegundoNombre>
+      <PrimerApellido>SORIANO</PrimerApellido>
+      <SegundoApellido>MENDEZ</SegundoApellido>
+      <txtUsuario>marco.soriano</txtUsuario>
+      <Pass>V8vG7Pp3IpNTNTWSmGCRc8eBtyCl3JoQpBhfcJTSEz7M08jJ8OuINtAMLanBJwLoM4UxJzWUajW/5HdiLvKUFyg4o4qUDRmz71IFbWWRPMzYAidtmOf5uDaRNSxz7vzo</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>6416156</Identificacion>
+      <Complemento />
+      <PrimerNombre>DELIA</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>MAMANI</PrimerApellido>
+      <SegundoApellido></SegundoApellido>
+      <txtUsuario>delia.mamani</txtUsuario>
+      <Pass>2os3ZtML4aUMJdhaMHOheMwip8Y114JrRzIXAc82TOKlUwURvqrSaJJpOjpbeWVA7alKvyMngCAwfwMskNU64lWWlWgdewabliPv5gll20ngyql+4xUTafzcUAzI6v/Z</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>6495815</Identificacion>
+      <Complemento />
+      <PrimerNombre>ALDO</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>JUSTINIANO</PrimerApellido>
+      <SegundoApellido>TAPIA</SegundoApellido>
+      <txtUsuario>aldo.justiniano</txtUsuario>
+      <Pass>V/3w/rIariPaZnaMDKo9NQjgMyUQUlYXZkSxKn5RIBSp3NvPqGg/flRCzJFaTdhjylX/KHbtu0VBrwIxvInWPExAmaZYQuF4wBFO8LwzVPuSzPgjM5QxcUJIjC0VPeiT</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>7337440</Identificacion>
+      <Complemento />
+      <PrimerNombre>MARIA</PrimerNombre>
+      <SegundoNombre>PAMELA</SegundoNombre>
+      <PrimerApellido>MANCILLA</PrimerApellido>
+      <SegundoApellido>MAMANI</SegundoApellido>
+      <txtUsuario>maria.mancilla</txtUsuario>
+      <Pass>yrryqGG3ZYieGfW0Bg4fSObRZzQtYd+lzNmcmfxgjIrxFuIBB53Wcx2NDqVhKkI4qPgQms4v/p9z0JXvfYRlNWWy7mM7ooSFYYiov0/xjzNDRYro/nldCQgFpyAl/P/H</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>9520104</Identificacion>
+      <Complemento />
+      <PrimerNombre>CARMEN</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>VARGAS</PrimerApellido>
+      <SegundoApellido>ACHACOLLO</SegundoApellido>
+      <txtUsuario>carmen.vargas1</txtUsuario>
+      <Pass>SGXBz2Q81SRQFsSidOjwMVnyTi16m3aXTM+KGrqMqLwmvRM3QtoNmV6njOwGDwAjlnuEK4KSmCnBGE4Vp2GJwsskTV23l4DG0N8I66X3OJqJ5ZjNMyGcj4qmhoe2gBWS</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>10343288</Identificacion>
+      <Complemento />
+      <PrimerNombre>EDSON</PrimerNombre>
+      <SegundoNombre>ARIEL</SegundoNombre>
+      <PrimerApellido>ORTUÑO</PrimerApellido>
+      <SegundoApellido>VILLCA</SegundoApellido>
+      <txtUsuario>edson.ortuño</txtUsuario>
+      <Pass>S8VixMHhIN6Hqfa2I733NDdUOy0WtcNtThCI3pJcOVAXLPPFPx5S+hH8/QjEUTQzOfDobt2YWY6maCpzvdaVp4iyW1rJq5HB4rw09beDS5imNPqxsd0SuSZ7PR6GMUck</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>84112151</Identificacion>
+      <Complemento />
+      <PrimerNombre>EDWINZO</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>VARGASQ</PrimerApellido>
+      <SegundoApellido>QUISPE</SegundoApellido>
+      <txtUsuario>edwinzo.vargasq</txtUsuario>
+      <Pass>jf1Dp5MrnQowmaorVE+BSy01CK25dz5GGZK88NHoeVZSKsHhGIr9htXubAjnNJRZjei/VgQ2VQucaR7zbPp6o78JHoymAk4NUDZkFK7ZpiE1tJ/1UrNTR9bdC+TR6R2m</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>6469921</Identificacion>
+      <Complemento />
+      <PrimerNombre>MARIBEL</PrimerNombre>
+      <SegundoNombre>NOLASCA</SegundoNombre>
+      <PrimerApellido>VILLARROEL</PrimerApellido>
+      <SegundoApellido>FLORES</SegundoApellido>
+      <txtUsuario>maribel.villarroel</txtUsuario>
+      <Pass>70VCd/r8VgLnmgGkfRy0FvYmureG5qApZu30w1wSOsDlBj+Vs7uCMw9mj2jea2/efk9Lilf0JpNwzu9+uxuQaGwpOSFqW2+jVJeeXIkDN8TYw2Ds5YoXmd7WSxy38cFy</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>7292732</Identificacion>
+      <Complemento />
+      <PrimerNombre>ANGEL</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>VICENTE</PrimerApellido>
+      <SegundoApellido>CRUZ</SegundoApellido>
+      <txtUsuario>angel.vicente</txtUsuario>
+      <Pass>d/FQ5d97CnWiHM+R6qG77gyveR1U8djsepsImify9QwOcWkjlf7kS+cvgCfE0G4F2x55EeSTMHf+tgVdzcxk7QbAOOu6y58ufXGd7dRZqilGKccChB6WSpLVZ7BCVhrk</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>5766904</Identificacion>
+      <Complemento />
+      <PrimerNombre>LOURDES</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>POMA</PrimerApellido>
+      <SegundoApellido>SANGA</SegundoApellido>
+      <txtUsuario>lourdes.poma</txtUsuario>
+      <Pass>sQ+dberf8fzmE0a8TsJ+e/zKxB7DQSR+KAWlxrEVnpYnosg0b3mpVjY/IjCmRzD2nyqHsLVj0R4FmhyzLastH8sAf0yTjakHrrMJQdjl89knZvyOR8cPm5TklOqNASWa</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>7357193</Identificacion>
+      <Complemento />
+      <PrimerNombre>JHONNY</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>VILLCA</PrimerApellido>
+      <SegundoApellido>MAMANI</SegundoApellido>
+      <txtUsuario>jhonny.villca</txtUsuario>
+      <Pass>SR3WGHww0KY3Ap7M1xs/OvJY9CxT6CYQdV0D9iEf2FQEk5bPVdJLXwNJqtXzeEOtzDINuSilzyltqfHUzP9E5lbz5jIgbV9Xpg/eg0u86MpOLaz5O5/3kbMZ+dCdKe47</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>9163351</Identificacion>
+      <Complemento />
+      <PrimerNombre>PERCI</PrimerNombre>
+      <SegundoNombre>CLINTON</SegundoNombre>
+      <PrimerApellido>ROQUE</PrimerApellido>
+      <SegundoApellido>MOLLERICONA</SegundoApellido>
+      <txtUsuario>perci.roque</txtUsuario>
+      <Pass>9IQmEk0MQ3n4EteYl+jYHSytDWmBic13GPeiX0CU9MB9cUgujNKLUEbZRN5B2YTxibR+5PmQebxJ22rr5o+6CRKwapf8vkgurepbm5+1HUJI74BDbU0ZwOOetrYbSMqk</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>6918395</Identificacion>
+      <Complemento />
+      <PrimerNombre>GILARO</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>LAURA</PrimerApellido>
+      <SegundoApellido>CHUQUIMIA</SegundoApellido>
+      <txtUsuario>gilaro.laura</txtUsuario>
+      <Pass>xAhfS2wDXg3JfiS53dGFZD17CjU0lGP/C46LXEY/gTnDU2NW0U4mvzvv8L4aOo8ZfPyXj44WgSEfDM8DaVlLthZBPJ6wV2/23kbe7v1uT2SbiMJyMZJDzhf2qMzymRqX</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>4202096</Identificacion>
+      <Complemento />
+      <PrimerNombre>KEILA</PrimerNombre>
+      <SegundoNombre>TATIANA</SegundoNombre>
+      <PrimerApellido>MUJICA</PrimerApellido>
+      <SegundoApellido>ZEBALLOS</SegundoApellido>
+      <txtUsuario>keila.mujica</txtUsuario>
+      <Pass>oOyKkDC86cPsWmDa2ifA2QXAuUy/n8cegi+F9SDDPrAMpn/6Ru7wt/suyUyXfmOQzyj8WuGCcA88miDySxCIDqR8BRXwEQieuekBCroJ4AHooUsWCyUK2/e6KLntmVnp</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>8304861</Identificacion>
+      <Complemento />
+      <PrimerNombre>RUDDY</PrimerNombre>
+      <SegundoNombre>WILSON</SegundoNombre>
+      <PrimerApellido>RAMOS</PrimerApellido>
+      <SegundoApellido>NINA</SegundoApellido>
+      <txtUsuario>ruddy.ramos</txtUsuario>
+      <Pass>klX2DSTh/ynVcqptOSMb9kfr1fkDcigNBejuFV2RFnXn7A4jU8oSDn540Kcx5mW/wAtKlmpe4vT/geAwT67CsnuPy6iqavxnqOq0/tyD1/fJalgO0SpDSL+Uv9A4v2VO</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>64074401</Identificacion>
+      <Complemento />
+      <PrimerNombre>JUAN</PrimerNombre>
+      <SegundoNombre>CARLOS</SegundoNombre>
+      <PrimerApellido>LIMACHI</PrimerApellido>
+      <SegundoApellido>MAMANI</SegundoApellido>
+      <txtUsuario>juan.limachi</txtUsuario>
+      <Pass>YtWiuVPYCeBH0BXhSw73U4J9Y7MyqANaMTZ95tBA26M9Z/vXsiRGn9N5UvXSAPSIHDI7y1DCsdj6veTuxDL5fzzPsDphZDcRuHSH7U0V0DgFMCgWqGeySSdkkDD8wJbR</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>6558690</Identificacion>
+      <Complemento />
+      <PrimerNombre>AMILCAR</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>RUEDA</PrimerApellido>
+      <SegundoApellido>SOTO</SegundoApellido>
+      <txtUsuario>amilcar.rueda</txtUsuario>
+      <Pass>Lj/IkPidif6A59dSpnAVWaV8EFP3/4LanzZma7DArC5vuMIYlDn3pR+BLOH4j0rR4fubSX/KEgbkSKD0v5mE10dQUw+xSKsJ2FvR+sIINv/rxDA8hi3Iu7pZqtyI33sq</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>5206448</Identificacion>
+      <Complemento />
+      <PrimerNombre>JHONNY</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>PEREDO</PrimerApellido>
+      <SegundoApellido>MENDOZA</SegundoApellido>
+      <txtUsuario>jhonny.peredo</txtUsuario>
+      <Pass>B0uLG9TesJQ5VoA4zSzAZyozQEC3RpH45u9i4OirEicfAya9M9pHUGQBIDuoR4nc7WYTY56aA6KDsvQaEj9mcC/wkIVCEBbN2fWWEqRf2gY1/okqkVCPpMRrTxWZzIhV</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>8044722</Identificacion>
+      <Complemento />
+      <PrimerNombre>SANDRO</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>ARCE</PrimerApellido>
+      <SegundoApellido>MELENDRES</SegundoApellido>
+      <txtUsuario>sandro.arce</txtUsuario>
+      <Pass>5zmYfR4zplPzyUzK0WhkifN2bz6lMeErHykWAzkU5h/teHG7KwFOk65obxV+VapeXOF/UKk4R3e3028vMsaQQQeSlzx2dpGUKMQzxfR/yzIbrAnA2nanQqZRWa8vsJeQ</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>989898</Identificacion>
+      <Complemento />
+      <PrimerNombre>PEPE</PrimerNombre>
+      <SegundoNombre>PRUEBA2</SegundoNombre>
+      <PrimerApellido>PRUEBA</PrimerApellido>
+      <SegundoApellido></SegundoApellido>
+      <txtUsuario>pepe.prueba</txtUsuario>
+      <Pass>rn+5P/ovWaYrU+wy2IY3KC0hqEAL+GSOXFv7gRzF7ZU+bZ5fbG+4sGNaYhpmEz/rF9o5YoQB2sko2JbaW4QeU0trGQabJB8WU1AwmKpUG9SNlOOGM+gCuhXmyeqMcBJu</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>11111</Identificacion>
+      <Complemento />
+      <PrimerNombre>ADMIN</PrimerNombre>
+      <SegundoNombre>XXX</SegundoNombre>
+      <PrimerApellido>POLICE</PrimerApellido>
+      <SegundoApellido>1</SegundoApellido>
+      <txtUsuario>admin.police</txtUsuario>
+      <Pass>ZrD/yM57EFsKYKCAiOiV2KuRHJjWYwLn9yaAMo/1MxirZSdIxSuA44INEi+8grmVXk8O5MA/R0aN05Y8L1Jbtoe+7oVsCOYJnOYB88aHp2uxFC2Y+7nJ01GiQqtCiVpd</Pass>
+      <UsuarioCreacion />
+      <UsuarioModificacion />
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>0001-01-01T00:00:00</FechaModificacion>
+      <Unidad />
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>65656565</Identificacion>
+      <Complemento></Complemento>
+      <PrimerNombre>PABLO</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>FERNANDEZ</PrimerApellido>
+      <SegundoApellido>MUNOZ</SegundoApellido>
+      <txtUsuario>pablo.fernandez</txtUsuario>
+      <Pass>r41YFIP03+gYPGT1eemFOwqjLrj+/J+7fxm3cIuqJC57c+KTbI+kvZg6t3XrzOeMPtbk7rWtrSdt3FRd3McX/csgLyaeoz3jLK+1ylbJ6ibkAMyy+slLyVExmPklf5WG</Pass>
+      <UsuarioCreacion>angel.chuquimia</UsuarioCreacion>
+      <UsuarioModificacion>angel.chuquimia</UsuarioModificacion>
+      <FechaCreacion>2020-03-10T14:24:48.9294822-04:00</FechaCreacion>
+      <FechaModificacion>2020-03-10T14:24:48.9294822-04:00</FechaModificacion>
+      <Unidad>FELCC</Unidad>
+    </Usuario>
+  </ListaUsuario>
+</Usuarios>

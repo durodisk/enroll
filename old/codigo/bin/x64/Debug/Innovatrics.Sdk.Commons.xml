@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Innovatrics.Sdk.Commons</name>
+    </assembly>
+    <members>
+        <member name="T:Innovatrics.Sdk.Commons.Enums.IntermediateImages">
+            <summary>
+            Unsupported class for internal purposes. 
+            </summary>
+        </member>
+        <member name="F:Innovatrics.Sdk.Commons.Enums.IntermediateImages.SkeletonImage">
+            <summary>
+            Intermediate images of fingerprint.
+            </summary>
+        </member>
+        <member name="F:Innovatrics.Sdk.Commons.Enums.IntermediateImages.FilteredImage">
+            <summary>
+            Intermediate images of fingerprint.
+            </summary>
+        </member>
+        <member name="F:Innovatrics.Sdk.Commons.Enums.IntermediateImages.BinarizedImage">
+            <summary>
+            Intermediate images of fingerprint.
+            </summary>
+        </member>
+        <member name="F:Innovatrics.Sdk.Commons.Enums.IntermediateImages.BlockMask">
+            <summary>
+            Intermediate images of fingerprint.
+            </summary>
+        </member>
+        <member name="M:Innovatrics.Sdk.Commons.Enums.IntermediateImages.#ctor(Innovatrics.Sdk.Commons.RawImage,Innovatrics.Sdk.Commons.RawImage,Innovatrics.Sdk.Commons.RawImage,Innovatrics.Sdk.Commons.RawImage)">
+            <summary>
+            IntermediateImages constructor creating RawImage objects of the common dimensions.
+            </summary>
+        </member>
+        <member name="P:Innovatrics.Sdk.Commons.RawImage.Width">
+            <summary>
+            Width of raw image in the container.
+            </summary>
+        </member>
+        <member name="P:Innovatrics.Sdk.Commons.RawImage.Height">
+            <summary>
+            Height of raw image in the container.
+            </summary>
+        </member>
+        <member name="P:Innovatrics.Sdk.Commons.RawImage.DpiX">
+            <summary>
+            DPI resolution of X axis of raw image in the container.
+            </summary>
+        </member>
+        <member name="P:Innovatrics.Sdk.Commons.RawImage.DpiY">
+            <summary>
+            DPI resolution of Y axis of raw image in the container.
+            </summary>
+        </member>
+        <member name="P:Innovatrics.Sdk.Commons.RawImage.ImageData">
+            <summary>
+            Byte array of raw image in the container.
+            </summary>
+        </member>
+        <member name="M:Innovatrics.Sdk.Commons.RawImage.#ctor(System.Byte[],System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Initializes new instance of RawImage class from raw image's binary data, dimensions and DPIs.<p/>
+            </summary>
+            <param name="imageData">Byte array of raw 8-bit image described in paragraph Fingerprint Image Data ( see chapter 2 Fingerprint Image Data of the documentation (ANSI/ISO SDK or Segmentation SDK)</param>
+            <param name="width">Width of the input image</param>
+            <param name="height">Height of the input image</param>
+            <param name="dpiX">DPI resolution of X axis of the input image</param>
+            <param name="dpiY">DPI resolution of Y axis of the input image</param>
+        </member>
+        <member name="M:Innovatrics.Sdk.Commons.RawImage.#ctor(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Initializes new instance of RawImage class from raw image's binary data and dimensions.<p/>
+            </summary>
+            <param name="imageData">Byte array of raw 8-bit image described in paragraph Fingerprint Image Data ( see chapter 2 Fingerprint Image Data of the documentation (ANSI/ISO SDK or Segmentation SDK)</param>
+            <param name="width">Width of the input image</param>
+            <param name="height">Height of the input image</param>
+        </member>
+    </members>
+</doc>

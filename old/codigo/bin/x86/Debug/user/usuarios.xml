@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Usuarios>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>123456</Identificacion>
+      <Complemento></Complemento>
+      <PrimerNombre>admin</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>policia</PrimerApellido>
+      <SegundoApellido></SegundoApellido>
+      <txtUsuario>admin</txtUsuario>
+      <Pass>HOBpSZvlznB58pWfsDmuiMIdf4HdXzIQD/RMzaMi8OycUJ5jv6ahSBpJUE7DiazD+j8224ME8p95L/kiyg5oEi6eUjlzCP+3ID3WUZdcowWKB2HrMR3gLHQDI4JeGd7K</Pass>
+      <UsuarioCreacion></UsuarioCreacion>
+      <UsuarioModificacion>admin</UsuarioModificacion>
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>2020-04-16T22:33:06.6398753-04:00</FechaModificacion>
+      <Unidad></Unidad>
+    </Usuario>
+  </ListaUsuario>
+  <ListaUsuario>
+    <Usuario>
+      <Identificacion>123456</Identificacion>
+      <Complemento></Complemento>
+      <PrimerNombre>1234</PrimerNombre>
+      <SegundoNombre></SegundoNombre>
+      <PrimerApellido>1234</PrimerApellido>
+      <SegundoApellido></SegundoApellido>
+      <txtUsuario>1234</txtUsuario>
+      <Pass>n2Ctcjl/3LP+zSMSZRAE81HBvb9ldjGjdM8iie/cR5EkOioBz6i5DSScn6e+lDviLehr7BWed3DCii0iowAljffsnV68BPS2vv3SBWuR4yfrxnCeYe9HGMua+T0eThTB</Pass>
+      <UsuarioCreacion></UsuarioCreacion>
+      <UsuarioModificacion>1234</UsuarioModificacion>
+      <FechaCreacion>0001-01-01T00:00:00</FechaCreacion>
+      <FechaModificacion>2020-04-16T22:36:14.2740945-04:00</FechaModificacion>
+      <Unidad></Unidad>
+    </Usuario>
+  </ListaUsuario>
+</Usuarios>
